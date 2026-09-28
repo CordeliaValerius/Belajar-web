@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #018f26;
+}
+
+.header-logo img {
+    width: 60px;
+    margin: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-sosmed {
+    margin-left: auto;
+}
+
+.header-sosmed a {
+    text-decoration: none;
+}
+
+.header-sosmed img {
+    width: 38px;
+}
+
+.header-content h1 {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.header-sub {
+    background-color: #00631A;
+}
+
+.header-nav {
+    margin: 0;
+}
+
+.header-nav {
+    margin: 0 -20px;
+}
+
+.header-nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.tagline {
+    text-align: center;
+    background-color: #018f26;
+    padding: 40px 20px;
+    margin-top: -5px;
+    color: #ffffff;
+}
+
+.tagline h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    letter-spacing: 10px;
+
+}
+
+#berita {
+    padding: 40px 0px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.berita-gambar img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.berita-deskripsi h4 {
+    margin-top: 0px;
+}
+
+.berita-tombol {
+    text-decoration: none;
+    background-color: #018f26;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.main-footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footer-logo img {
+    width: 70px;
+    margin: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+.footer-content h1 {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.footer-teks {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer-teks h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.footer-teks .slogan {
+    margin: 0 0 16px 0;
+    font-size: 14px;
+}
+
+.footer-teks p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-copyright {
+    background-color: gray;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.footer-copyright p {
+    margin: 0%;
+    color: #ffffff;
+    font-size: 14px;
+}
